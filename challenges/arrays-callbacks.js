@@ -97,9 +97,7 @@ function add(one,two){
   return one + two
 }
 
-function multiply(one,two){
-  return one * two;
-}
+let multiply = (one,two) => one * two;
 
 function greeting(firstName,lastName){
   return `Hello ${firstName} ${lastName}, nice to meet you`;
@@ -122,3 +120,17 @@ Stretch: If you haven't already, convert your array method callbacks into arrow 
 
 */
 
+const consume = (a,b,cb)=>{
+  return cb(a,b);
+}
+
+const add = (one,two) => {
+return one + two
+};
+const multiply = (one,two) => {
+return one * two
+};
+
+const greeting = (firstName,lastName) => {
+return `Hello ${firstName} ${lastName}, nice to meet you`
+};
