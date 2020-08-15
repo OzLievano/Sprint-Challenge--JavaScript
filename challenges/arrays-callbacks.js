@@ -97,7 +97,9 @@ function add(one,two){
   return one + two
 }
 
-let multiply = (one,two) => one * two;
+function multiply(one,two){
+  return one * two;
+}
 
 function greeting(firstName,lastName){
   return `Hello ${firstName} ${lastName}, nice to meet you`;
