@@ -61,6 +61,17 @@ The zoos need to know their total animal population across the United States. Fi
 
 */
 let populationTotal = 0;
+new_array = [];
+
+zooAnimals.forEach((item)=>{
+  new_array.push(item.population);
+})
+// console.log(new_array);
+
+new_array.reduce((a,b) =>{
+  populationTotal = a + b;
+  return populationTotal;
+},0)
 console.log(populationTotal);
 
 
