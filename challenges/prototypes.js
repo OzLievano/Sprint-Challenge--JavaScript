@@ -27,8 +27,8 @@ const newCubiod = new CubiodMaker(4,5,5);
 
 console.log(newCubiod);
 
-console.log(newCubiod.surfaceArea());
-console.log(newCubiod.volume());
+console.log(newCubiod.surfaceArea()); //130
+console.log(newCubiod.volume()); //100
 
 /* == Step 2: Volume Method ==
   Create a method using CuboidMaker's prototype that returns the volume of a given cuboid's length, width, and height
