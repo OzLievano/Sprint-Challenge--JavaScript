@@ -63,7 +63,7 @@ Make sure you clone the branch that the TK links to: the vnext branch, NOT maste
 - [x ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
 - [ x] You are now ready to build this project with your preferred IDE
 - [ x] Implement the project on your Branch, committing changes regularly.
-- [ x] Push commits: git push origin `<firstName-lastName>`.
+- [ ] Push commits: git push origin `<firstName-lastName>`.
 
 
 
